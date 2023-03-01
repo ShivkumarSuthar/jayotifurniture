@@ -4,7 +4,7 @@ import Header from './assets/Header.jsx'
 // import Contact from './assets/Contact.jsx'
 import UnderNav from './assets/UnderNav.jsx'
 // import './App.css';
-// import Home from './assets/Home.jsx';
+import Home from './assets/Home.jsx';
 // import Services from './assets/Services.jsx';
 // import Mywork from './assets/Mywork.jsx';
 // import Why from './assets/Why.jsx';
@@ -15,9 +15,9 @@ function App() {
   return (
     <div className="App">
    
-     <Header />
-     <UnderNav />
-     {/* <Home/> */}
+     {/* <Header /> */}
+     {/* <UnderNav /> */}
+     <Home/>
      {/* <About /> */}
      {/* <Services/> */}
      {/* <Mywork/> */}

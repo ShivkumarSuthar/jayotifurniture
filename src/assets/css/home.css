@@ -15,3 +15,60 @@
         display: none;
     }
  }
+
+ .home{
+    background: url('/src/assets/images/Tv2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 109vh;
+
+    
+ }
+ .home .carousel{
+    width: 100%;
+     height: 100%;
+   }
+   .home .carousel .carousel-inner{
+    position: relative;
+    top: 30%;
+   }
+   .home .carousel .carousel-item {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    float: none;
+   }
+   .home .carousel .carousel-item .carouselText{
+text-align: center;
+
+    color: #DFB163;
+    font-weight: bolder;
+ }
+ .home .carousel .carousel-item .carouselText2{
+text-align: center;
+
+    color: #ffffff;
+    font-weight: bolder;
+ }
+ .home .carousel .carousel-item .carouselButton{
+    width: 200px;
+    height: 60px;
+    border-radius: 100vmax;
+    text-align: center;
+   
+
+ }
+ .home .carousel .carousel-item .media{
+    width: 200px;
+    height: 60px;
+    border-radius: 100vmax;
+    text-align: center;
+   
+
+ }
+ .fa-instagram, .fa-facebook, .fa-pinterest{
+font-size: 30px;
+margin: 20px 10px;
+ }
