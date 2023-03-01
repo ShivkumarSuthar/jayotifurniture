@@ -1,0 +1,17 @@
+
+
+
+@media only screen and (max-width: 426px) and (min-width: 325px)  
+ {
+    .L-carouselmg1,  .L-carouselmg2{
+        display: none;
+    }
+   
+    
+ }
+
+ @media only screen and (min-width: 426px)  {
+    .mLivingImg1,  .mLivingImg2{
+        display: none;
+    }
+ }

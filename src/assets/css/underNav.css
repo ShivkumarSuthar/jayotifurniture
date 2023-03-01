@@ -1,0 +1,7 @@
+.mail, .tel{
+    color: rgba(250, 153, 7, 0.712);
+    font-size: 20px;
+}
+.address{
+    color:#777777;
+}
