@@ -1,13 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Libre+Baskerville:wght@400;700&family=Oswald:wght@300&family=Raleway:ital,wght@0,200;0,300;0,500;0,600;1,300&display=swap');
-
-
-
-
-    /* font-family: 'Aboreto', cursive; */
-    /* font-family: 'Libre Baskerville', serif; */
-    /* , sans-serif; */
-    /* font-family: 'Raleway', sans-serif; */
-
-*{
-    font-family: 'Oswald'
+@font-face {
+    font-family: bilmet;
+    font-weight: 400;
+    src: url('/src/assets/font/Bilment-Italic-BF63ce005e5b515.otf');
+    src: url('/src/assets/font/Bilment-BF63ce005f5153f.otf');
+}
+@font-face {
+    font-family: qhuerto;
+    font-weight: 400;
+    src: url('/src/assets/font/qhuerto.otf');
+    /* src: url('/src/assets/font/qhuerto.ttf'); */
 }
