@@ -56,56 +56,37 @@ function Services() {
                             </li>
                         </ul>
                     </div>
-                    <div className="col-lg-6 p-0 pt-5 pt-lg-0">
-                        <div className="owl-carousel service-carousel position-relative">
-                            {/* Tile Display  */}
-                    <div className="d-flex flex-column text-center bg-light mx-1 p-3" style={{height: "100%"}}>
-                                <img src={TileImg1} height="170px" width="200px" />
-                                <img src={TileImg2} height="170px" width="200px" />
-                                <h5 className="mb-0 pt-1">Tile Display</h5>
+                    <div className="col-lg-6 p-0 serviceCarousel">
+                        <div id="carouselExampleSlidesOnly" className=" container carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+
+                                    <img id="service-c" src={KitchenImg1} alt="" style={{height:"400px"}} />
+                                    {/* <img id="service-c" src={KitchenImg1} alt="" /> */}
+                                    <h5 className="p-0">TV Unit</h5>
+
+                                </div>
+                                <div class="carousel-item">
+                                <img id="service-c" src={KitchenImg1} alt="" style={{height:"400px"}} />
+                                    {/* <img id="service-c" src={KitchenImg1} alt="" /> */}
+                                    <h5 className="p-0">TV Unit</h5>
+
+                                </div>
 
                             </div>
-
-
-                            <div className="d-flex flex-column text-center bg-light mx-1 p-3" style={{height: "100%"}}>
-                                <img id="service-c" src={BedroomImg1} height="170px" width="200px" />
-                                <img id="service-c" src={BedroomImg2}  height="170px" width="200px" />
-                                <h5 className="mb-0 pt-1">Bedroom</h5>
-
-                            </div>
-                            <div className="d-flex flex-column text-center bg-light mx-1 p-3">
-                                <img id="service-c" src={KitchenImg1} height="170px" width="200px" />
-
-                                <img id="service-c" src={KitchenImg2} height="170px" width="200px" />
-                                <h5 className="mb-0 pt-1">Kitchen</h5>
-
-                            </div>
-                            <div className="d-flex flex-column text-center bg-light mx-1 p-3">
-
-                                <img id="service-c" src={KitchenImg1} alt="Hall" height="170px" width="200px" />
-                                <img id="service-c" src={KitchenImg1} alt="Hall" height="170px" width="200px" />
-                                <h5 className="mb-0 pt-1">Hall</h5>
-
-                            </div>
-                            <div className="d-flex flex-column text-center bg-light mx-1 p-3">
-                                <img id="service-c" src={KitchenImg1} alt="" height="170px" width="200px" />
-                                <img id="service-c" src={KitchenImg1} alt="" height="170px" width="200px" />
-                                <h5 className="mb-0 pt-1">Stairs case</h5>
-                            </div>
-                            <div className="d-flex flex-column text-center bg-light mx-1 p-3">
-                                <img id="service-c" src={KitchenImg1} alt="" height="170px" width="200px" />
-                                <img id="service-c" src={KitchenImg1} alt="" height="170px" width="200px" />
-                                    <h5 className="pb-0">TV Unit</h5>
-                            </div>
-
 
                         </div>
+
                     </div>
                 </div>
-            </div>
-        </div>
-           
-    )
+
+</div>
+</div>
+
+
+
+
+                )
 }
 
-export default Services
+                export default Services

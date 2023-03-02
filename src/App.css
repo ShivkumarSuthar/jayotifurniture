@@ -1,6 +1,8 @@
 @import url('./assets/css/font.css');
 @import url('./assets/css/header.css');
 @import url('./assets/css/home.css');
+@import url('./assets/css/about.css');
+@import url('./assets/css/service.css');
 *{
   font-family: century Gothic;
   font-weight: 400;
